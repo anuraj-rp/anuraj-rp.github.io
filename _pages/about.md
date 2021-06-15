@@ -31,7 +31,7 @@ I like to meet and get to know fellow geeks and people with backgrounds differen
 
 :) 
 
-[TT]: https://tactotek.com
+
 [TT-Story]: https://careers.tactotek.com/blog/posts/12778-from-space-tech-and-robotics-to-imse
 [IMSE]: https://tactotek.com/this-is-imse/
 [Twitter]: https://twitter.com/anurajenp
