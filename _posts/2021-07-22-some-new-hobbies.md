@@ -2,6 +2,8 @@
 title: "Some new hobbies..."
 date: 2021-07-22
 author_profile: true
+header:
+  teaser: "assets/images/blog/exomy.jpg"
 categories:
   - robotics
 tags:
