@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
         Anuraj's Notes and Scribbles
 
 
-twitter_username: _anurajrp
+twitter_username: anurajenp
 github_username: anuraj-rp
 minimal_mistakes_skin: default
 search: true
@@ -67,7 +67,7 @@ author:
           #url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/_anurajrp"
+      url: "https://twitter.com/anurajenp"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/anuraj-rp"
