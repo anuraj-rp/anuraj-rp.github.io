@@ -6,7 +6,7 @@ classes: wide
 header:
   teaser: "assets/images/blog/exomy.jpg"
 categories:
-  - programming
+  - notes
 tags:
   - qt
   - c++
