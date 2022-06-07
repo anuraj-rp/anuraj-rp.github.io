@@ -2,8 +2,9 @@
 title: "Computers are bicycles for the human mind"
 date: 2019-09-01
 author_profile: true
+classes: wide
 categories:
-  - til
+  - blog
 tags:
   - software
 ---

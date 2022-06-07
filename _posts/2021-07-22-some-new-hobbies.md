@@ -2,12 +2,13 @@
 title: "Some new hobbies..."
 date: 2021-07-22
 author_profile: true
+classes: wide
 header:
   teaser: "assets/images/blog/exomy.jpg"
 categories:
-  - robotics
+  - blog
 tags:
-  - general
+  - robotics
 ---
 
 I have been on hiatus from Robotics for quite some time. The last time I worked with some field robots was in 2015. Around the end of last year ESA released a mini version of the ExoMars Rosalind Franklin rover that is going to launch next year. 
