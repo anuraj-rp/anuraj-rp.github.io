@@ -2,10 +2,11 @@
 title: "Jekyll setup with minimal mistakes theme - Part 1"
 date: 2019-05-25
 author_profile: true
+classes: wide
 categories:
-  - Notes
+  - notes
 tags:
-  - technotes
+  - jekyll
 ---
 
 [Minimal Mistakes][MinimalMistakes] theme is one of the good jekyll themes for a simple homepage.
