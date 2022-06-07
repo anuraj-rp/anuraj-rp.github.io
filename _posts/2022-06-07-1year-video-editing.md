@@ -1,5 +1,5 @@
 ---
-title: "Qt compilation problems after fresh installation on Ubuntu"
+title: "One year of video editing"
 date: 2022-06-07
 author_profile: true
 classes: wide
