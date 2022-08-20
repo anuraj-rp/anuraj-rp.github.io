@@ -3,8 +3,6 @@ title: "Qt compilation problems after fresh installation on Ubuntu"
 date: 2021-08-27
 author_profile: true
 classes: wide
-header:
-  teaser: "assets/images/blog/exomy.jpg"
 categories:
   - notes
 tags:
