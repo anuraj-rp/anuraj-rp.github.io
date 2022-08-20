@@ -13,14 +13,14 @@ Last month I finished up a year in the world of exploring youtube and video edit
 
 Last year I tried a lot of software and gear and made a lot of cringe content(lol). Here is the list of the things I have tried
 
-###Gear
+### Gear
 
 * DJI Pocket 2
 * Selfie stick with tripod and iPhone
 * Gaming Laptop
 * Tripod 
 
-###Software
+### Software
 
 * Descript
 * Davincie Resolve
@@ -28,7 +28,7 @@ Last year I tried a lot of software and gear and made a lot of cringe content(lo
 * OBS Studio
 * Twitch Studio
 
-###Video Platoform
+### Video Platoform
 
 * Youtube
 * Instagram
