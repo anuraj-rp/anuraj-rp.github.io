@@ -30,7 +30,7 @@ Some of the things I tried:
 
 * **Descript** <br/>
   I used it in the beginning when I started. Really good transcription based editing feature. But once I wasn't using it much so I canceled my subscription. It doesn't have all the features of a full video editing software
-* **Davincie Resolve** <br/>
+* **Davinci Resolve** <br/>
   Free full fledged video editing software and steeper learning curve. I use it right now for all my editing
 * **Canva** <br/>
   Good software for all graphics needs. I use it mostly to make YouTube thumbnails
@@ -53,3 +53,5 @@ Some of the things I tried:
   The suggested videos after browsing it only for some time is just quite good. 
 * **Twitch** <br/>
   Learning to stream my coding session. Feels live streaming is going to be much bigger in the coming decade.
+
+A lot of my weekends during the last one year has been going into trying out all the different software, gear and platforms. I haven't much progress on the content creation and don't have much to show for the amount of time I have spent on this. But I hope to keep continuing to learn as much as I can about video editing and content creation. I enjoy video editing, so let's see where I will be next year. 
