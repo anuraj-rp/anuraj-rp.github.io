@@ -8,11 +8,10 @@ header:
   overlay_filter: "0.5"
 classes: wide
 ---
-An incomplete list of my shelf...
-<p align="center">
-    <a href="/assets/images/blog/pikachoo.gif"><img src="/assets/images/blog/pikachoo.gif"></a>
-</p>
 
+An incomplete list of books in my shelf + other people's reading shelves that I try to follow
+
+### My incomplete shelf...
 
 * [The Man Who Knew Infinity: A Life of the Genius Ramanujan](https://www.amazon.com/Man-Who-Knew-Infinity-Ramanujan/dp/1476763496/)
 * [A Mind at Play: How Claude Shannon Invented the Information Age](https://www.amazon.com/Mind-Play-Shannon-Invented-Information-ebook/dp/B01M5IJN1P/)
@@ -32,3 +31,13 @@ An incomplete list of my shelf...
 * [The Beginning of Infinity: Explanations that Transform The World](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-Penguin-ebook/dp/B004TRQAP4)
 * [Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets](https://www.amazon.com/Fooled-Randomness-Hidden-Chance-Markets-ebook/dp/B002RI9BH6/)
 * [The Art of Doing Science and Engineering: Learning to Learn](https://www.amazon.com/Art-Doing-Science-Engineering-Learning-ebook/dp/B088TMLQDC)
+
+### Other reading shelves that I follow
+
+* Venkatesh Rao's Shelf - https://www.ribbonfarm.com/now-reading/
+* Patrick Collison's Shelf - https://patrickcollison.com/bookshelf
+* Kevin Simler's Shelf - https://meltingasphalt.com/what-im-reading/
+* Farnam Street Shelf - https://fs.blog/reading-2020/
+* Naval Ravikant's Shelf - https://www.navalmanack.com/navals-recommended-reading
+* Gates Notes - https://www.gatesnotes.com/Books
+* Gwern's Shelf - https://www.gwern.net/reviews/Books
