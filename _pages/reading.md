@@ -14,6 +14,7 @@ An partial list of books in my shelf + other people's reading shelves that I try
 ## My reading shelf
 
 * [Mastering Ethereum: Building Smart Contracts and DApps](https://www.amazon.com/gp/product/B07KGLNL76)
+* [Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction](https://www.amazon.com/Bitcoin-Cryptocurrency-Technologies-Comprehensive-Introduction/dp/0691171696/)
 * [Life in the Fasting Lane: How to Make Intermittent Fasting a Lifestyle—and Reap the Benefits of Weight Loss and Better Health](https://www.amazon.com/gp/product/B07QRPNZGV/)
 * [A Thousand Brains: A New Theory of Intelligence](https://www.amazon.com/gp/product/B08CDYR545/)
 * [The Beginning of Infinity: Explanations that Transform The World](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-Penguin-ebook/dp/B004TRQAP4)
