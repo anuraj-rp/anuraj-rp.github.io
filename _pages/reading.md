@@ -32,12 +32,10 @@ An incomplete list of books in my shelf + other people's reading shelves that I 
 * [Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets](https://www.amazon.com/Fooled-Randomness-Hidden-Chance-Markets-ebook/dp/B002RI9BH6/)
 * [The Art of Doing Science and Engineering: Learning to Learn](https://www.amazon.com/Art-Doing-Science-Engineering-Learning-ebook/dp/B088TMLQDC)
 
-### Other reading shelves that I follow
 
-* Venkatesh Rao's Shelf - <https://www.ribbonfarm.com/now-reading/>
-* Patrick Collison's Shelf - <https://patrickcollison.com/bookshelf>
-* Kevin Simler's Shelf - <https://meltingasphalt.com/what-im-reading/>
-* Farnam Street Shelf - <https://fs.blog/reading-2020/>
-* Naval Ravikant's Shelf - <https://www.navalmanack.com/navals-recommended-reading>
-* Gates Notes - <https://www.gatesnotes.com/Books>
-* Gwern's Shelf - <https://www.gwern.net/reviews/Books>
+### Other reading shelves that I try to follow
+
+* <https://www.ribbonfarm.com/now-reading/>
+* <https://patrickcollison.com/bookshelf>
+* <https://fs.blog/reading-2020/>
+* <https://www.gwern.net/reviews/Books>
