@@ -38,4 +38,4 @@ I like to meet and get to know fellow geeks and people with backgrounds differen
 [Embedded]: https://en.wikipedia.org/wiki/Embedded_software 
 [Unikie]: https://www.unikie.com/en/ 
 [Resume]: /resume/
-[NewHobbies]: /robotics/some-new-hobbies/
+[NewHobbies]: /blog/some-new-hobbies/
