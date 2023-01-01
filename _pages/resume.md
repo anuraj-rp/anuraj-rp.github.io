@@ -7,5 +7,5 @@ author_profile: true
 permalink: /resume/
 ---
 
-My one page résumé in [PDF]({{ site.url }}/assets/pdfs/resume2021.pdf) format.
+My one page CV in [PDF]({{ site.url }}/assets/pdfs/Anuraj-CV2023.pdf) format.
 
