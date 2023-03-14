@@ -11,7 +11,7 @@ tags:
 
 I have been experimenting with live streams over the last few months with OBS. Last weekend my friend Nathan and I set up stream kit for our [Yak Collective][YC website] Study group. With some neat CSS trics by Nathan we were able to setup discord steamkit overlay for a nice looking streaming scene. Here is what the stream yesterday looked like. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qM_ZiKiBaLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qM_ZiKiBaLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The audio still needs some work. But overall I am happy with the scene layout. The CSS added to the discord streamkit chat overlay below
 
