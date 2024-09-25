@@ -1,4 +1,4 @@
-ruby '3.1.0'
+ruby '3.1.3'
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
