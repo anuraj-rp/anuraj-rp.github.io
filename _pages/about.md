@@ -15,14 +15,15 @@ classes: wide
 
 Hello and welcome to my small corner on the Internet.
 
-I am a simple, curious and versatile engineer living in Finland. 
+I am a simple, curious, versatile engineer and independent [researcher/applied scientist][IndependentScientist] living in Finland. 
 
 I have been building hardware and software for around fifteeen years, first in academia, then various industries like printed electronics manufacturing, telecom(5G SoC) and robotics. I have dabbled in lots of technologies during this time all the way from diodes and transistors, micro-controllers with few kilobytes of ram to Linux/Windows applications. I have designed small PCBs and electronic circuits, have written a lot embedded software for sensors, for robots, and wireless sensor networks protocols. I have also written software for robotic simulation and occasionally made android/iOS applications. However, my core skill and strengths lie in the field of [Embedded Software][Embedded]. I get a good kick out of packing as much functionalities as possible in a few kilo-bytes of ram and some tens of kilo-bytes of flash memory.
 
-Regarding my education, I got my first master’s degree in Space Technology and Robotics from Erasmus Mundus SpaceMaster Programme after which I spent some time building hardware for robots. I then worked on printed electronics for a few years and then with 5G in telecom sector. Currently doing applied research in the industry and consulting for robotics and ML. [I build small rovers for fun][NewHobbies] in my free time. In brief, my plan was to be an academic, but I made a pivot to industry in 2015. I am also currently enrolled at the University of Oulu studying Product Management. Currently I am working as Software Consulting Engineer with some awesome people at [Unikie][Unikie].
+Regarding my education, I got my first master’s degree in Space Technology and Robotics from Erasmus Mundus SpaceMaster Programme after which I spent some time building hardware for robots. I then worked on printed electronics for a few years and then with 5G in telecom sector. Currently doing applied research in the industry and consulting for robotics and ML. [I build small rovers for fun][NewHobbies] in my free time and carry out self-funded fun research projects. Have a look here to know more - [YakRover Project][YakRover].
 
+In brief, my plan was to be an academic, but I made a pivot to industry in 2015. I am also currently enrolled at the University of Oulu studying Product Management. Currently I am working as Software Consulting Engineer with some awesome people at [Unikie][Unikie].
 
-I was planning to study Field Robotics for my doctoral studies particularly Evolutionary Robotics. I have been fascinated by Evolution for almost a decade and keep reading research articles on it whenever I have free time. Had I started my PhD I would have studied Evolutionary and Genetic Algorithms in the context of Robotics, however life seemed to have a different plan for me. Here is a my two page [CV][Resume].
+I was planning to study Field Robotics for my doctoral studies particularly Evolutionary Robotics. I have been fascinated by Evolution for almost a decade and keep reading research articles on it whenever I have free time. Had I started my PhD I would have studied Evolutionary and Genetic Algorithms in the context of Robotics, however life seemed to have a different plan for me. Here is a my two page [CV][Resume]. 
 
 I plan to use this web-site primarily as place to bookmark things I read, jot my thoughts down occasionally and to foray into the world of web technologies.
 
@@ -37,3 +38,5 @@ I like to meet and get to know fellow geeks and people with backgrounds differen
 [Unikie]: https://www.unikie.com/en/ 
 [Resume]: /resume/
 [NewHobbies]: /blog/some-new-hobbies/
+[YakRover]: https://www.yakcollective.org/projects/yarg.html
+[IndependentScientist]: https://en.wikipedia.org/wiki/Independent_scientist
