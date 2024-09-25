@@ -15,7 +15,7 @@ classes: wide
 
 Hello and welcome to my small corner on the Internet.
 
-I am a simple, curious, versatile engineer and independent [researcher/applied scientist][IndependentScientist] living in Finland. 
+I am a simple, curious, versatile engineer and [independent researcher][IndependentScientist] living in Finland. 
 
 I have been building hardware and software for around fifteeen years, first in academia, then various industries like printed electronics manufacturing, telecom(5G SoC) and robotics. I have dabbled in lots of technologies during this time all the way from diodes and transistors, micro-controllers with few kilobytes of ram to Linux/Windows applications. I have designed small PCBs and electronic circuits, have written a lot embedded software for sensors, for robots, and wireless sensor networks protocols. I have also written software for robotic simulation and occasionally made android/iOS applications. However, my core skill and strengths lie in the field of [Embedded Software][Embedded]. I get a good kick out of packing as much functionalities as possible in a few kilo-bytes of ram and some tens of kilo-bytes of flash memory.
 
