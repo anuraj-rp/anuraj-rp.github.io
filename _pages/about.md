@@ -21,7 +21,7 @@ I have been building hardware and software for around fifteeen years, first in a
 
 Regarding my education, I got my first master’s degree in Space Technology and Robotics from Erasmus Mundus SpaceMaster Programme after which I spent some time building hardware for robots. I then worked on printed electronics for a few years and then with 5G in telecom sector. Currently doing applied research in the industry and consulting for robotics and ML. [I build small rovers for fun][NewHobbies] in my free time and carry out self-funded fun research projects. Have a look here to know more - [YakRover Project][YakRover].
 
-In brief, my plan was to be an academic, but I made a pivot to industry in 2015. I am also currently enrolled at the University of Oulu studying Product Management. Currently I am working as Software Consulting Engineer with some awesome people at [Unikie][Unikie].
+In brief, my plan was to be an academic, but I made a pivot to industry in 2015. I am also currently enrolled at the University of Oulu studying Product Management. Currently I am working on applied ML and robotics at [Unikie][Unikie].
 
 I was planning to study Field Robotics for my doctoral studies particularly Evolutionary Robotics. I have been fascinated by Evolution for almost a decade and keep reading research articles on it whenever I have free time. Had I started my PhD I would have studied Evolutionary and Genetic Algorithms in the context of Robotics, however life seemed to have a different plan for me. Here is a my two page [CV][Resume]. 
 
