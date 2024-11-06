@@ -8,5 +8,11 @@ I think Cryptobotics broadly captures the vibe and what the field is all about -
 
 The time for Cryptobotics has arrived and as Marc Andreessen would say _"It's time to build" - Cryptobots_. 
 
+Infact we at [Yak Robotics Garage][yarg] built a small FPV cryptobot controlled with [Farcaster][farcaster] frames and are briging it to Devcon in Bangkok. 
+
+So if you want to play with our cryptobots, come meet us at Devcon. Follow us on Farcaster/Twitter to know where we have setup our cryptobots. We are [vgr][vgr] and [anurajenp][anurajenp] on Farcaster/Twitter. 
+
 [farcaster]: https://www.farcaster.xyz/
 [yarg]: https://www.yakcollective.org/projects/yarg.html
+[anurajenp]: https://warpcast.com/anurajenp
+[vgr]: https://warpcast.com/vgr/
