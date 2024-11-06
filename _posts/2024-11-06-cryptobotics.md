@@ -6,6 +6,6 @@ I have been exploring blockchains for the last few years and its application to 
 
 I think Cryptobotics broadly captures what the field is all about - decentralization, distributed, blockchains, smart contracts, zk-proofs, cryptocurrencies and robotics. 
 
-The time for Cryptobotics has arrived and as Marc Andreesen would say _"It's time to build" - Cryptobots_. 
+The time for Cryptobotics has arrived and as Marc Andreessen would say _"It's time to build" - Cryptobots_. 
 
 [Farcaster]: https://www.farcaster.xyz/
