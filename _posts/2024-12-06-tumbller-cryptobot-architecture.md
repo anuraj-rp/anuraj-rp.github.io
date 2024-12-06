@@ -18,7 +18,7 @@ Last month, Venkat and I were at Devcon 7 in Bangkok and had a small with our sm
 
 Tumbller is a robotics educational learning kit Elegoo. It runs on an Arduino Nano and does not have WiFi. To add WiFi to the Tumbller we decided to use an Arduino Nano ESP32 because it has the same pinout as Arduino Nano. But we had a small problem - the Tumbller PCB runs on 5V and Nano ESP32 on 3.3V. We designed a custom plugin board to fit on the Tumbller PCB with voltage level translator in between the MCU and PCB board. We got the plugin board manufactured from JLCPCB in China. Here is a 3D render of the plugin board we designed.
 
-<video width="640" height="360" controls>
+<video width="560" height="315" controls>
   <source src="{{ '/assets/videos/2024-12-06-cyptobot-tumbler-plugin.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
