@@ -17,7 +17,7 @@ Two weeks ago I was at Devcon 7 in Bangkok and had a small demo with our small y
 Tumbller is a robotics educational learning kit Elegoo. It runs on an Arduino Nano and does not have WiFi. To add WiFi to the Tumbller we decided to use an Arduino Nano ESP32 because it has the same pinout as Arduino Nano. But the problem was that the Tumbller PCB runs on 5V and Nano ESP32 on 3.3V. We designed a custom plugin board to fit on the Tumbller PCB that would voltage level translator in between the MCU and PCB board. We got the plugin board manufactured from JLCPCB in China. Here is a 3D render of the plugin board we designed.
 
 <video width="640" height="360" controls>
-  <source src="{{ '/assets/videos/my-video.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/videos/2024-12-06-cyptobot-tumbler-plugin.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -30,7 +30,12 @@ We also put a camera ESP32 on the robot. The camera is basically ESP32-CAM devki
 
 ### Software
 
+The broad software architecture of the farcaster frame-v1 with payment gate is shown below. 
 
+<figure>
+    <a href="/assets/images/blog/2024-12-06-cryptobot-tumbller-fcframe.png"><img src="/assets/images/blog/2024-12-06-cryptobot-tumbller-fcframe.png"></a>
+    <figcaption>Noisy human communication</figcaption>
+</figure>
 
 The tumbller-esp32-s3 exposes the motion and motor control affordance of the cryptobot via five endpoints. The endpoints `/move/forward`, `/move/backward`, `/move/left`, `/move/right` and `/move/stop` control the movements for forward, backward, left, right and stop respectively.
 
