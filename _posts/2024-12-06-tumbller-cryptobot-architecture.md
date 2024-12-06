@@ -3,6 +3,8 @@ title: "Tumbller Cryptobot System Design"
 date: 2024-12-06
 author_profile: true
 classes: wide
+header:
+  teaser: "/assets/images/blog/2024-12-06-cryptobot-tumbller-fcframe.png"
 categories:
 - robotics
 tags:
@@ -60,7 +62,7 @@ I also had problems figuring out how to trigger a particular user's wallet with 
 But after these two problems were solved the system mostly worked smoothly. 
 
 <figure>
-    <a href="/assets/images/blog/2024-12-06-devcon-pic.jpg"><img src="/assets/images/blog/2024-12-06-devcon-pic.jpg"></a>
+    <a href="/assets/images/blog/2024-12-06-devcon-pic.jpg"><img src="/assets/images/blog/2024-12-06-devcon-pic.jpg" style="width:50%; height:auto;"></a>
     <figcaption>Venkat and me at Devcon 7 with our Tumbller cryptobots</figcaption>
 </figure>
 
@@ -86,7 +88,7 @@ For a speculative riff on Crypto-economics of the rovers here is Venkat's post o
 
 <figure>
     <a href="/assets/images/blog/2024-12-06-cryptobot-network-sd.png"><img src="/assets/images/blog/2024-12-06-cryptobot-network-sd.png"></a>
-    <figcaption>Future Crptobot Network System Design Diagram by Venkat</figcaption>
+    <figcaption>Future Cryptobot Network System Design Diagram by Venkat</figcaption>
 </figure>
 
 I have been showing around the cryptobots to people at Devcon and later here in Finland. It is really satisfying to watch people's reactions to the cryptobots. There seems to be something rather unique about them because it resonates with such a wide spectrum of people, engineers and non-engineer alike. 
