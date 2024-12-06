@@ -12,11 +12,11 @@ tags:
   - robotics
 ---
 
-Last month, Venkat and I were at Devcon 7 in Bangkok and had a small demo with our small yakrovers cryptobot Tumbllers there. Let's have a look at the system design of the setup to understand how the tumbller cryptobot works.
+Last month, Venkat and I were at Devcon 7 in Bangkok and had a small with our small cryptobot Tumbllers there. Let's have a look at the system design of the setup to understand how the tumbller cryptobot works.
 
 ### Hardware 
 
-Tumbller is a robotics educational learning kit Elegoo. It runs on an Arduino Nano and does not have WiFi. To add WiFi to the Tumbller we decided to use an Arduino Nano ESP32 because it has the same pinout as Arduino Nano. But the problem was that the Tumbller PCB runs on 5V and Nano ESP32 on 3.3V. We designed a custom plugin board to fit on the Tumbller PCB that would voltage level translator in between the MCU and PCB board. We got the plugin board manufactured from JLCPCB in China. Here is a 3D render of the plugin board we designed.
+Tumbller is a robotics educational learning kit Elegoo. It runs on an Arduino Nano and does not have WiFi. To add WiFi to the Tumbller we decided to use an Arduino Nano ESP32 because it has the same pinout as Arduino Nano. But we had a small problem - the Tumbller PCB runs on 5V and Nano ESP32 on 3.3V. We designed a custom plugin board to fit on the Tumbller PCB with voltage level translator in between the MCU and PCB board. We got the plugin board manufactured from JLCPCB in China. Here is a 3D render of the plugin board we designed.
 
 <video width="640" height="360" controls>
   <source src="{{ '/assets/videos/2024-12-06-cyptobot-tumbler-plugin.mp4' | relative_url }}" type="video/mp4">
@@ -28,7 +28,7 @@ The video stream from our YakRover weekly meetings where I explain the entire pr
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7VkJM0gVBCo?si=P90SUkcu1TfINJ7z&amp;start=105" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 
-We also put a camera ESP32 on the robot. The camera is basically ESP32-CAM devkit. Each of our tumbller had two ESP32 microcontrollers. Both the ESP32 MCU connected to the same wifi access point. Let's call the ESP32 MCU controlling the tumbller robot motion tumbller-esp32-s3 and the camera ESP32 as tumbller-esp-cam. Each of the ESP32 MCU exposed functionality or affordance of the robot on the local network as a http REST endpoints.
+We also put a camera ESP32 on the robot to make it FPV bot. The camera is basically ESP32-CAM devkit. Each of our tumbller had two ESP32 microcontrollers. Both the ESP32 MCU connected to the same wifi access point. Let's call the ESP32 MCU controlling the tumbller robot motion tumbller-esp32-s3 and the camera ESP32 as tumbller-esp-cam. Each of the ESP32 MCU exposed functionality or affordance of the robot on the local network as a http REST endpoints.
 
 
 ### Software
@@ -87,7 +87,8 @@ We also had a discussion about the future steps for our cryptobot network on our
 
 <br>
 For the next steps, we should be able to get some parts of the system design shown below in the coming months with frames-v2.
-For a speculative riff on Crypto-economics of the rovers here is Venkat's post on his substack - https://contraptions.venkateshrao.com/p/miniaturized-economies
+For a speculative riff on Crypto-economics of the rovers here is Venkat's post on his substack [Contraptions][contraptions-substack]
+
 
 <figure>
     <a href="/assets/images/blog/2024-12-06-cryptobot-network-sd.png"><img src="/assets/images/blog/2024-12-06-cryptobot-network-sd.png"></a>
@@ -95,3 +96,6 @@ For a speculative riff on Crypto-economics of the rovers here is Venkat's post o
 </figure>
 
 I have been showing around the cryptobots to people at Devcon and later here in Finland. It is really satisfying to watch people's reactions to the cryptobots. There seems to be something rather unique about them because it resonates with such a wide spectrum of people, engineers and non-engineer alike. 
+
+
+[contraptions-substack]: https://contraptions.venkateshrao.com/p/miniaturized-economies
