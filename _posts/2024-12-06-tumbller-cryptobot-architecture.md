@@ -22,11 +22,11 @@ Tumbller is a robotics educational learning kit Elegoo. It runs on an Arduino Na
   <source src="{{ '/assets/videos/2024-12-06-cyptobot-tumbler-plugin.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
+<br>
 The video stream from our YakRover weekly meetings where I explain the entire process of PCB design and manufacturing for Tumbller Plugin.
-
+<br>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7VkJM0gVBCo?si=P90SUkcu1TfINJ7z&amp;start=105" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<br>
 
 We also put a camera ESP32 on the robot. The camera is basically ESP32-CAM devkit. Each of our tumbller had two ESP32 microcontrollers. Both the ESP32 MCU connected to the same wifi access point. Let's call the ESP32 MCU controlling the tumbller robot motion tumbller-esp32-s3 and the camera ESP32 as tumbller-esp-cam. Each of the ESP32 MCU exposed functionality or affordance of the robot on the local network as a http REST endpoints.
 
@@ -40,7 +40,6 @@ The broad software system design of the farcaster frame-v1 with payment gate is 
     <figcaption>Tumbller Cryptobot System Design</figcaption>
 </figure>
 
-
 The tumbller-esp32-s3 exposes the motion and motor control affordance of the cryptobot via five endpoints by running the webserver on the esp32. The endpoints `/move/forward`, `/move/backward`, `/move/left`, `/move/right` and `/move/stop` control the movements for forward, backward, left, right and stop respectively.
 
 The tumbller-esp-cam exposes the camera image via the `/getImage` endpoint so that when a GET request is sent to the endpoint it would return a image taken by the camera. 
@@ -48,10 +47,11 @@ The tumbller-esp-cam exposes the camera image via the `/getImage` endpoint so th
 The server for frames-v1 is written in python. The frames-v1 server, tumbller-esp32-s3 and the tumbller-esp-cam need to on the same network or VPN. We used tailscale to put all three on the same VPN. The ESP32s can be exposed on the tailscale VPN with tailscale subnets. If the frames server is running locally on a computer without DNS name then ngrok can be used to expose to the outside world. The payment gate for the rovers is generated using the awesome __Paybot__ farcaster bot by Rob Recht and Richard Sun. They helped us a lot in setting up the payment gate quickly with their farcaster bot. 
 
 The frame-v1 server sits in between the Tumbllers and farcaster translating the frame UI actions to appropriate tumbller-esp32-s3 and tumbller-esp-cam REST calls. I explain and help the setup of the frame server for Venkat's Tumbller in Seattle here in this video.
+<br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMp6Q-V-Pxo?si=RupmGAWGCseMMLDd&amp;start=157" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+<br>
 The current version of the farcaster frame-v1 server allows selection between two rovers and manages the session and payment gates for each rover independently. Each session runs for 2 minutes after a payment of 1USDC. 
 
 ### Devcon and future work
@@ -69,7 +69,6 @@ But after these two problems were solved the system mostly worked smoothly.
     <figcaption>Venkat and me at Devcon 7 with our Tumbller cryptobots</figcaption>
 </figure>
 
-
 There is a lot of improvement still needed and a quick list suggested by Venkat in our discord group. 
 
 * Ruggedize basics (new board, wheel mechanics fixing, permanent mount for cam, cleaner comms architecture)
@@ -86,7 +85,7 @@ We also had a discussion about the future steps for our cryptobot network on our
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eGOfkMKiweY?si=64QiSXmJ8nzjieYn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+<br>
 For the next steps, we should be able to get some parts of the system design shown below in the coming months with frames-v2.
 For a speculative riff on Crypto-economics of the rovers here is Venkat's post on his substack - https://contraptions.venkateshrao.com/p/miniaturized-economies
 
