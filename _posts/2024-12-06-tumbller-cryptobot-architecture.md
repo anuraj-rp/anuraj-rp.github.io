@@ -20,7 +20,7 @@ Tumbller is a self-balancing robotics educational kit from Elegoo. It runs on an
 
 <figure>
     <a href="/assets/images/blog/2024-12-06-tumbller-kit.jpg"><img src="/assets/images/blog/2024-12-06-tumbller-kit.jpg"></a>
-    <figcaption>Tumbller Cryptobot System Design</figcaption>
+    <figcaption>Tumbller Kit</figcaption>
 </figure>
 <br>
 Here is a 3D render of the plugin board we designed.
@@ -40,7 +40,7 @@ We also put a camera ESP32 on the robot to make it FPV bot. The camera is basica
 
 ### Software
 
-The broad software system design of the farcaster frame-v1 with payment gate is shown below. 
+A bird's eye view of the software stack to control the robots with farcaster frame-v1 and paybot payment gate is shown below. 
 
 <figure>
     <a href="/assets/images/blog/2024-12-06-cryptobot-tumbller-fcframe.png"><img src="/assets/images/blog/2024-12-06-cryptobot-tumbller-fcframe.png"></a>
