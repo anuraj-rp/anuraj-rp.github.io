@@ -1,4 +1,14 @@
-# Cryptobotics - A New Robotics Frontier? 
+---
+title: "Cryptobotics - A New Robotics Frontier?"
+date: 2024-11-06
+author_profile: true
+classes: wide
+categories:
+- robotics
+tags:
+  - cryptobotics
+  - robotics
+---
 
 Some of my friends and I have been exploring blockchains for the last few years at [Yak Robotics Garage][yarg] for its application to Robotics and Internet of Things. There are many people experimenting with blockchains for Robotics around the world, but everybody just describes this new emerging field of study with different word combinations involving blockchains and robotics. I never found a name that would capture the vibe of the field. While thinking about it I randomly posted on [Farcaster][farcaster], a possible name for this new field which seems to have resonated a bit with people. 
 
