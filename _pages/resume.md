@@ -7,5 +7,5 @@ author_profile: true
 permalink: /resume/
 ---
 
-My two page CV in [PDF]({{ site.url }}/assets/pdfs/Anuraj-CV-2024.pdf) format.
+My two page CV in [PDF]({{ site.url }}/assets/pdfs/cv-2pg.pdf) format.
 
