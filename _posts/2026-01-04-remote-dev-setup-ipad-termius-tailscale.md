@@ -1,0 +1,135 @@
+---
+title: "Claude Code on Your iPhone: Quick Remote Dev Setup with Termius + Tailscale"
+date: 2026-01-04
+author_profile: true
+classes: wide
+header:
+  teaser: "/assets/images/blog/2026-01-04-claude-remote-setup.png"
+categories:
+  - notes
+tags:
+  - Linux
+  - Development
+  - Remote
+  - Claude Code
+---
+
+Want to run Claude Code from your iPhone or iPad? Here's how I set it up - and yes, it actually works great for quick fixes on the go.
+
+<figure style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 300px;">
+        <a href="/assets/images/blog/2026-01-04-termius-ipad.png">
+            <img src="/assets/images/blog/2026-01-04-termius-ipad.png" style="width:100%; height:auto;">
+        </a>
+        <figcaption>Claude Code running on iPad via Termius</figcaption>
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+        <a href="/assets/images/blog/2026-01-04-termius-iphone.jpg">
+            <img src="/assets/images/blog/2026-01-04-termius-iphone.jpg" style="width:100%; height:auto;">
+        </a>
+        <figcaption>Yes, even on iPhone - Termius has a great mobile keyboard</figcaption>
+    </div>
+</figure>
+<br>
+
+### What You Need
+
+- An Ubuntu machine (local, cloud VM, whatever)
+- [Termius app][TermiusAppStore] on your iPhone/iPad (free version works)
+- A [Tailscale][TailscaleHome] account (also free)
+
+### Step 1: Set Up Your Dev Machine
+
+SSH into your Ubuntu machine and run my setup script:
+
+**Friendly reminder:** Always [read scripts][dotfileRepo] before running them.
+{: .notice--info}
+
+**TLDR:** `./setup-machine.sh && sudo tailscale up` → tailscale login → `npm install -g @anthropic-ai/claude-code`
+{: .notice}
+
+```bash
+git clone https://github.com/anuraj-rp/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+./setup-machine.sh
+```
+
+This installs everything you need in about 5-10 minutes:
+- **tmux** - keeps your sessions alive when you disconnect
+- **vim** with plugins (NERDTree, themes, git integration)
+- **Docker**
+- **Tailscale** - the magic that makes this work from anywhere
+- **Starship prompt** - because life's too short for ugly terminals
+
+### Step 2: Connect to Tailscale
+
+```bash
+sudo tailscale up
+```
+
+Follow the URL it gives you to authenticate. Then grab your Tailscale IP:
+
+```bash
+tailscale ip
+```
+
+Keep this IP handy - you'll need it for Termius.
+
+### Step 3: Set Up Termius
+
+1. Open Termius → tap "+" → "New Host"
+2. Enter your Tailscale IP as hostname
+3. Add your username and password (or set up SSH keys)
+
+Connect and you're in!
+
+### Step 4: Using tmux (Essential for Mobile)
+
+Start a named session:
+
+```bash
+tmux new -s dev
+```
+
+Now here's the beauty - if your connection drops (happens on mobile), just reconnect and run:
+
+```bash
+tmux attach -t dev
+```
+
+Everything's exactly where you left it.
+
+Quick tmux commands (prefix is `Ctrl+a`):
+
+| What | Keys |
+|------|------|
+| New window | `Ctrl+a c` |
+| Next/prev window | `Ctrl+a n` / `Ctrl+a p` |
+| Split screen | `Ctrl+a \|` or `Ctrl+a -` |
+| Detach | `Ctrl+a d` |
+
+### Step 5: Install Claude Code
+
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+Now just run `claude` and start coding from your phone!
+
+### Pro Tips
+
+**tmux plugins** - Press `Ctrl+a Shift+i` after first launch to install session persistence and vim integration.
+
+**Multiple machines?** Run `tailscale status` to see all your devices. Add each to Termius and switch between them easily.
+
+**vim theme toggle** - Press `F5` to flip between light and dark mode.
+
+### Why This Works So Well
+
+Tailscale creates a secure mesh network between your devices - no port forwarding, no exposing SSH to the internet. Termius gives you a proper terminal with a mobile-friendly keyboard row (Ctrl, Esc, arrows). And tmux means you never lose your work when switching apps or losing signal.
+
+I've used this setup on planes, coffee shops, and during commutes. It's surprisingly usable for quick bug fixes and code reviews. Give it a shot!
+
+[dotfileRepo]: https://github.com/anuraj-rp/dotfiles.git
+[TailscaleHome]: https://tailscale.com
+[TermiusAppStore]: https://apps.apple.com/app/termius-ssh-client/id549039908
