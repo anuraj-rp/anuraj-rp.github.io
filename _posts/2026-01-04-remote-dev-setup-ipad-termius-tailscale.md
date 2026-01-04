@@ -116,6 +116,18 @@ npm install -g @anthropic-ai/claude-code
 
 Now just run `claude` and start coding from your phone!
 
+### Step 6: Add Claude HUD (Optional)
+
+[Claude HUD][ClaudeHUD] adds a statusline showing context usage, active tools, running agents, and todo progress. Check out the [author's demo][ClaudeHUDDemo] to see it in action.
+
+Install it from within Claude Code:
+
+```
+/plugin marketplace add jarrodwatts/claude-hud
+/plugin install claude-hud
+/claude-hud:setup
+```
+
 ### Pro Tips
 
 **tmux plugins** - Press `Ctrl+a Shift+i` after first launch to install session persistence and vim integration.
@@ -124,10 +136,12 @@ Now just run `claude` and start coding from your phone!
 
 ### Why This Works So Well
 
-Tailscale creates a secure mesh network between your devices - no port forwarding, no exposing SSH to the internet. Termius gives you a proper terminal with a mobile-friendly keyboard row (Ctrl, Esc, arrows). And tmux means you never lose your work when switching apps or losing signal.
+Tailscale creates a secure mesh network between your devices. Termius gives you a proper terminal with a mobile-friendly keyboard row (Ctrl, Esc, arrows). And tmux means you never lose your work when switching apps or losing signal.
 
 I've used this setup on trains, buses and coffee shops. It's surprisingly usable for quick bug fixes and code reviews. Give it a shot!
 
 [dotfileRepo]: https://github.com/anuraj-rp/dotfiles.git
 [TailscaleHome]: https://tailscale.com
 [TermiusAppStore]: https://apps.apple.com/app/termius-ssh-client/id549039908
+[ClaudeHUD]: https://github.com/jarrodwatts/claude-hud
+[ClaudeHUDDemo]: https://x.com/jarrodwatts/status/2007579355762045121
