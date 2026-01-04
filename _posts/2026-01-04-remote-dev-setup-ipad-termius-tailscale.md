@@ -122,13 +122,11 @@ Now just run `claude` and start coding from your phone!
 
 **Multiple machines?** Run `tailscale status` to see all your devices. Add each to Termius and switch between them easily.
 
-**vim theme toggle** - Press `F5` to flip between light and dark mode.
-
 ### Why This Works So Well
 
 Tailscale creates a secure mesh network between your devices - no port forwarding, no exposing SSH to the internet. Termius gives you a proper terminal with a mobile-friendly keyboard row (Ctrl, Esc, arrows). And tmux means you never lose your work when switching apps or losing signal.
 
-I've used this setup on planes, coffee shops, and during commutes. It's surprisingly usable for quick bug fixes and code reviews. Give it a shot!
+I've used this setup on trains, buses and coffee shops. It's surprisingly usable for quick bug fixes and code reviews. Give it a shot!
 
 [dotfileRepo]: https://github.com/anuraj-rp/dotfiles.git
 [TailscaleHome]: https://tailscale.com
