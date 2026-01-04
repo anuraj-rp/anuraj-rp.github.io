@@ -130,7 +130,9 @@ Now just run `claude` and start coding from your phone!
 
 ### Step 6: Add Claude HUD (Optional)
 
-[Claude HUD][ClaudeHUD] adds a statusline showing context usage, active tools, running agents, and todo progress. Check out the [author's demo][ClaudeHUDDemo] to see it in action.
+[Claude HUD][ClaudeHUD] adds a statusline showing context usage, active tools, running agents, and todo progress.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Claude HUD demo</p>&mdash; Jarrod Watts (@jarrodwatts) <a href="https://x.com/jarrodwatts/status/2007579355762045121">January 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Install it from within Claude Code:
 
@@ -156,4 +158,3 @@ I've used this setup on trains, buses and coffee shops. It's surprisingly usable
 [TailscaleHome]: https://tailscale.com
 [TermiusAppStore]: https://apps.apple.com/app/termius-ssh-client/id549039908
 [ClaudeHUD]: https://github.com/jarrodwatts/claude-hud
-[ClaudeHUDDemo]: https://x.com/jarrodwatts/status/2007579355762045121
