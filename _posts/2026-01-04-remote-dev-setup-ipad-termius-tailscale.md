@@ -132,7 +132,7 @@ Now just run `claude` and start coding from your phone!
 
 [Claude HUD][ClaudeHUD] adds a statusline showing context usage, active tools, running agents, and todo progress.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Claude HUD demo</p>&mdash; Jarrod Watts (@jarrodwatts) <a href="https://x.com/jarrodwatts/status/2007579355762045121">January 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Claude HUD demo</p>&mdash; Jarrod Watts (@jarrodwatts) <a href="https://twitter.com/jarrodwatts/status/2007579355762045121?ref_src=twsrc%5Etfw">January 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Install it from within Claude Code:
 
