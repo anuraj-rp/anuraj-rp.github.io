@@ -5,6 +5,7 @@ author_profile: true
 classes: wide
 header:
   image: "/assets/images/blog/2026-01-04-claude-remote-setup.png"
+  og_image: "/assets/images/blog/2026-01-04-claude-remote-setup.png"
   teaser: "/assets/images/blog/2026-01-04-claude-remote-setup.png"
 categories:
   - notes
