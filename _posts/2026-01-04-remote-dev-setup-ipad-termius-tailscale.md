@@ -54,7 +54,19 @@ cd ~/dotfiles
 ./setup-machine.sh
 ```
 
-This installs everything you need in about 5-10 minutes:
+**Don't want everything?** Run individual scripts instead:
+
+```bash
+./install-tailscale.sh  # Required - for remote access
+./install-nodejs.sh     # Required - for Claude Code
+./install-tmux.sh       # Recommended - keeps sessions alive
+```
+
+Skip what you don't need: `install-docker.sh`, `install-vim.sh`, `install-starship.sh`, `install-nerdfonts.sh`
+
+All scripts support cleanup - e.g. `./install-vim.sh --clean` (remove configs) or `--clean-all` (full uninstall).
+
+The full setup installs:
 - **tmux** - keeps your sessions alive when you disconnect
 - **vim** with plugins (NERDTree, themes, git integration)
 - **Docker**
