@@ -4,7 +4,7 @@ date: 2023-03-14
 author_profile: true
 classes: wide
 categories:
-  - youtube
+  - video-editing
 tags:
   - video
 ---
