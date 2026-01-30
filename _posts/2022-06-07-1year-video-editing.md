@@ -6,7 +6,7 @@ classes: wide
 categories:
   - video-editing
 tags:
-  - video
+  - Video-Editing
 ---
 
 Last month I finished one year in the world of YouTube and exploring video editing. One of the obvious things one immediately realizes after jumping into video world is that it is way harder than it looks to create good video content. There are so many skills required for making good video content that I was just overwhelmed for the first 3-4 months. 

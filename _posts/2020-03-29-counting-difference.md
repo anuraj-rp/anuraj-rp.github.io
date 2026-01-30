@@ -6,7 +6,7 @@ classes: wide
 categories:
   - blog
 tags:
-  - evolution
+  - Philosophy
 ---
 The human brain is an amazing machine. It has about [86 billion neurons out of which 16 billion are in the frontal cortex][HumanBrain]. This computing machine we all have, burns about 500 calories out of the 2000 calories we consume on a daily basis. What do we humans do with our energy consuming computing machine? We primarily use it for creating a model of the world around us to help us navigate it. Since we are social animals we use it to think about other people and their intentions. We think about abstract ideas, science, math, philosophy, and the meaning of life itself. We may do all this thinking not just for survival, but maybe because [thinking might be enjoyable.][IntelligenceReconsidered] 
 

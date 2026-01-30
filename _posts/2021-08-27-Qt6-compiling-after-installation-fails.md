@@ -6,8 +6,8 @@ classes: wide
 categories:
   - notes
 tags:
-  - qt
-  - c++
+  - C++
+  - Tutorial
 ---
 
 I just made a fresh installation of Qt6 on Linux machine running Ubuntu. It was failing to build a default widget application with the error. From the error message it seemed to be some CMake error about not being able to find Qt libraries.
