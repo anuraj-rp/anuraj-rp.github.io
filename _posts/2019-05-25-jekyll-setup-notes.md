@@ -6,7 +6,7 @@ classes: wide
 categories:
   - notes
 tags:
-  - jekyll
+  - Tutorial
 ---
 
 [Minimal Mistakes][MinimalMistakes] theme is one of the good jekyll themes for a simple homepage.

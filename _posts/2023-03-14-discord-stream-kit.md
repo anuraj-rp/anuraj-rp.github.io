@@ -6,7 +6,7 @@ classes: wide
 categories:
   - video-editing
 tags:
-  - video
+  - Video-Editing
 ---
 
 I have been experimenting with livestreams over the last few months with OBS. Last weekend my friend Nathan and I set up stream kit for our [Yak Collective][YC website] study group. With some neat CSS tricks by Nathan we were able to setup discord steamkit overlay for a nice looking streaming scene. Here is what yesterday's stream looked like. 

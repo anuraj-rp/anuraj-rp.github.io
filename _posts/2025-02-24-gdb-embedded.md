@@ -6,7 +6,8 @@ classes: wide
 categories:
   - notes
 tags:
-  - embedded
+  - Embedded
+  - Tutorial
 ---
 
 Notes and resources on how to debug an embedded target with GDB and a jtag/swd adapter. I will keep updating the post as I keep finding good resources.

@@ -12,9 +12,8 @@ categories:
   - notes
 tags:
   - Linux
-  - Development
-  - Remote
-  - Claude Code
+  - AI
+  - Tutorial
   - AI-assisted
 ---
 

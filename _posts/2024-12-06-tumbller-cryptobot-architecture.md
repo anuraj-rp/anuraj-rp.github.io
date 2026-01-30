@@ -8,8 +8,7 @@ header:
 categories:
 - robotics
 tags:
-  - cryptobotics
-  - robotics
+  - Cryptobotics
 ---
 
 Last month, I was at Devcon 7 in Bangkok with my friends Venkat and Sachin. We had a small demo with our cryptobot Tumbllers there. Let's have a look at the system design of the setup to understand how the tumbller cryptobot works.
