@@ -14,7 +14,11 @@ tags:
   - Development
   - Remote
   - Claude Code
+  - AI-assisted
 ---
+
+*This post was written with assistance from Claude, an AI by Anthropic.*
+{: .notice--info}
 
 Want to run Claude Code from your iPhone or iPad? Here's how I set it up - and yes, it actually works great for quick fixes on the go.
 
