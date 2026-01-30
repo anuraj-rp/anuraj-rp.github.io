@@ -144,6 +144,31 @@ Install it from within Claude Code:
 /claude-hud:setup
 ```
 
+### Step 7: Add Speech-to-Text (Optional)
+
+Typing on a phone keyboard gets old fast. Speech-to-text makes Claude Code on mobile genuinely productive - dictate your prompts instead of pecking at tiny keys.
+
+**For iPhone/iPad: [Wispr Flow][WisprFlow]**
+
+Wispr Flow is an AI voice keyboard that works inside any app. Install it, enable the keyboard in iOS Settings, then switch to it when you want to dictate in Termius.
+
+- Automatically adds punctuation and removes filler words
+- Works in 100+ languages
+- Free tier gives 2,000 words/week
+
+To use: tap the globe icon on your keyboard → select Wispr Flow → start talking.
+
+**For Desktop (Mac/Windows/Linux): [Voquill][Voquill]**
+
+If you're also using Claude Code from your desktop, [Voquill][Voquill] is an open-source alternative worth checking out.
+
+- Runs Whisper locally (no cloud required) or via Groq API
+- AI cleanup removes filler words automatically
+- Personal glossary for technical terms
+- AGPLv3 licensed
+
+Both tools turn voice into polished text, which is exactly what you want when dictating code prompts.
+
 ### Pro Tips
 
 **tmux plugins** - Press `Ctrl+a Shift+i` after first launch to install session persistence and vim integration.
@@ -160,3 +185,5 @@ I've used this setup on trains, buses and coffee shops. It's surprisingly usable
 [TailscaleHome]: https://tailscale.com
 [TermiusAppStore]: https://apps.apple.com/app/termius-ssh-client/id549039908
 [ClaudeHUD]: https://github.com/jarrodwatts/claude-hud
+[WisprFlow]: https://wisprflow.ai
+[Voquill]: https://github.com/josiahsrc/voquill
