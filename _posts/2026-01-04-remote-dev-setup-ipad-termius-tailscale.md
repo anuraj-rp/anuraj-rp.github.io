@@ -1,6 +1,7 @@
 ---
 title: "Claude Code on Your iPhone: Quick Remote Dev Setup with Termius + Tailscale"
 date: 2026-01-04
+last_modified_at: 2026-01-30
 author_profile: true
 classes: wide
 header:
