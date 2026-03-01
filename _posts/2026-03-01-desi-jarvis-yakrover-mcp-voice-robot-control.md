@@ -20,14 +20,20 @@ tags:
 
 > A video is worth a million words. Here's Desi Jarvis in action before we get into the details:
 
-<video width="100%" controls>
-  <source src="/assets/videos/2026-03-01-desi-jarvis-robots.MP4" type="video/mp4">
-</video>
-<br>
-
-<video width="100%" controls>
-  <source src="/assets/videos/2026-03-01-desi-jarvis-talk.MP4" type="video/mp4">
-</video>
+<figure style="display: flex; gap: 20px; align-items: flex-start;">
+    <div style="flex: 1;">
+        <video controls style="width:100%; height:auto;">
+            <source src="/assets/videos/2026-03-01-desi-jarvis-robots.MP4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div style="flex: 1;">
+        <video controls style="width:100%; height:auto;">
+            <source src="/assets/videos/2026-03-01-desi-jarvis-talk.MP4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</figure>
 <br>
 
 What if you could talk to your robots and they'd just listen? Not a scripted voice command system, but an actual AI assistant that understands context, speaks back to you, and controls a fleet of robots anywhere in the world. And yes, it works in Hindi and Hinglish too.
