@@ -38,7 +38,7 @@ tags:
 
 What if you could talk to your robots and they'd just listen? Not a scripted voice command system, but an actual AI assistant that understands context, speaks back to you, and controls a fleet of robots anywhere in the world. And yes, it works in Hindi and Hinglish too.
 
-That's what I built with **yakrover-8004-mcp** and **yakrover-talk-mcp** - a Desi Jarvis of sorts - and it's been one of the most fun things I've worked on.
+That's what I built with [**yakrover-8004-mcp**](https://github.com/YakRoboticsGarage/yakrover-8004-mcp) and [**yakrover-talk-mcp**](https://github.com/YakRoboticsGarage/yakrover-talk-mcp) - a Desi Jarvis of sorts - and it's been one of the most fun things I've worked on.
 
 ### From Cryptobot to MCP
 
@@ -166,6 +166,8 @@ Beyond that, there's more I want to do:
 The whole point of this project is to make interacting with physical systems as natural as talking to a friend. No special apps, no custom UIs, just conversation. MCP makes this possible by giving LLMs a standardized way to discover and interact with the physical world.
 
 ### Try It Yourself
+
+Both repos are on GitHub: [yakrover-8004-mcp](https://github.com/YakRoboticsGarage/yakrover-8004-mcp) and [yakrover-talk-mcp](https://github.com/YakRoboticsGarage/yakrover-talk-mcp).
 
 If you want to try it, you can start with just the FakeRover simulator - no hardware needed. Start the simulator and the MCP gateway:
 
