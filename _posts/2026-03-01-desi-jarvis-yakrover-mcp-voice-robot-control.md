@@ -18,6 +18,18 @@ tags:
 *This post was written with assistance from Claude, an AI by Anthropic.*
 {: .notice--info}
 
+> A video is worth a million words. Here's Desi Jarvis in action before we get into the details:
+
+<video width="100%" controls>
+  <source src="/assets/videos/2026-03-01-desi-jarvis-robots.MP4" type="video/mp4">
+</video>
+<br>
+
+<video width="100%" controls>
+  <source src="/assets/videos/2026-03-01-desi-jarvis-talk.MP4" type="video/mp4">
+</video>
+<br>
+
 What if you could talk to your robots and they'd just listen? Not a scripted voice command system, but an actual AI assistant that understands context, speaks back to you, and controls a fleet of robots anywhere in the world. And yes, it works in Hindi and Hinglish too.
 
 That's what I built with **yakrover-8004-mcp** and **yakrover-talk-mcp** - a Desi Jarvis of sorts - and it's been one of the most fun things I've worked on.
