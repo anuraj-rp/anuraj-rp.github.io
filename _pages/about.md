@@ -13,7 +13,7 @@ header:
 
 Hello and welcome to my small corner on the Internet.
 
-I am a simple, curious, versatile engineer and [independent researcher][IndependentScientist] living in Finland. I am the lead researcher for Distributed Robotics Group at [Protocol Institute][PI-Homepage] on weekends and evenings. For day-job I consult different companies in robotics and embedded-systems at [Unikie][Unikie]. Here is my two-page [CV][Resume]{:target="_blank"}. 
+I am a simple, curious, versatile engineer and [independent researcher][IndependentScientist] living in Finland. I am the lead researcher for Distributed Robotics Group at [Protocol Institute][PI-Homepage] on weekends/evenings and write open-source protocols and software for robotics. For day-job I consult different companies in robotics and embedded-systems at [Unikie][Unikie]. Here is my two-page [CV][Resume]{:target="_blank"}. 
 
 I have been building hardware and software for around fifteen years, both in academia and industry. I have dabbled in lots of technologies during this time all the way from diodes and transistors, micro-controllers with few kilobytes of ram to Linux/Windows applications. I have designed small PCBs and electronic circuits, have written a lot of embedded software for sensors, for robots, and wireless sensor networks protocols. I have also written software for robotic simulation and occasionally made android/iOS applications. However, my core skill and strengths lie in the field of [Embedded Software][Embedded]. I get a good kick out of packing as much functionalities as possible in a few kilo-bytes of ram and some tens of kilo-bytes of flash memory.
 
